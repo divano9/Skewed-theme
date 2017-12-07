@@ -27,12 +27,13 @@ ul.bxslider {
 }
 /** THEME
 ===================================*/
--wrapper .bx-pager,
+
+.bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
-  bottom: -30px;
+  bottom:70px;
   width: 100%;
-  z-index: 1000;
+  z-index: 100;
 }
 /* LOADER */
 .bx-wrapper .bx-loading {

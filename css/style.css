@@ -136,7 +136,7 @@ header{
 .team a{
     max-width: 350px;
     margin: auto;
-    box-shadow: 0 0 5px #000;
+/*    box-shadow: 0 0 5px #000 inset;*/
     padding: 20px 10px;
     color: #222;
 }
@@ -208,4 +208,75 @@ header{
 .newsletter button{
     border-radius: 0;
     cursor:pointer;
+}
+
+.animation{
+    visibility: hidden;
+    position: relative;
+    transition: 1s linear;
+}
+
+@keyframes slideLeft{
+    0%{
+        opacity:0;
+        transform:translateX(50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(o);
+    }
+}
+
+.slideLeft{
+    animation-name: slideLeft;
+    visibility: visible;
+    animation-duration: 2s;
+}
+
+@keyframes slideUp{
+    0%{
+        opacity:0;
+        transform:translateY(50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateY(o);
+    }
+}
+
+.slideUp{
+    animation-name: slideUp;
+    visibility: visible;
+    animation-duration: 1s;
+}
+
+@keyframes slideRight{
+    0%{
+        opacity:0;
+        transform:translateX(-50%);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(o);
+    }
+}
+
+.slideRight{
+    animation-name: slideRight;
+    visibility: visible;
+    animation-duration: 1s;
+}
+
+.portfolio .portfolio-slider .hover{
+    position: absolute;
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in;
+    background: rgba(0,0,0,0.5) url('assets/favicon.png') no-repeat center;
+}
+
+.portfolio .portfolio-slider li:hover .hover{
+    height: 100%;
 }
