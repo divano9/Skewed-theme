@@ -1,0 +1,86 @@
+
+@media(max-width:768px){
+    .container{
+      width: 100%;
+    }
+}
+
+
+@media(min-width:576px){
+
+    
+
+
+}
+
+@media(min-width:768px){
+
+.counter{
+    font-size: 50px;
+}
+
+}
+
+
+
+
+@media(min-width:992px){
+
+    header{
+        padding: 25px 0;
+    }
+
+    .navbar-nav{
+        background: none;
+        margin-left: auto;
+    }
+    .slider h2{
+        font-size: 60px;
+    }
+
+    .about-us,
+    .principles,
+    .team,
+    .achievements{
+        padding: 100px 0;
+    }
+    h2{
+        font-size: 60px;
+    }
+    .video,
+    .parallax,
+    .portfolio{
+        padding: 160px 0;
+    }
+    
+    .team a figure{
+        width: 180px;
+        height: 180px;
+    }
+    .counter{
+    font-size: 60px;
+}
+
+}
+
+@media(min-width:1200px){
+
+    .slider h2{
+        font-size: 82px;
+    }
+    .about-us,
+    .team,
+    .principles,
+    .achievements{
+        padding: 130px 0;
+    }
+    
+    .team a figure{
+        width: 220px;
+        height: 220px;
+    }
+    .counter{
+    font-size: 84px;
+}
+
+}
