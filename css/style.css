@@ -13,12 +13,18 @@ p{
 img{
     max-width: 100%;
 }
+
+.body{
+    position: relative;
+}
+
 header{
     position: fixed;
     width: 100%;
     top:0;
     left: 0;
     z-index: 2000;
+    transition: 0.5s ease-in;
 }
 .navbar-light .navbar-toggler {
     border-color: #fff;
