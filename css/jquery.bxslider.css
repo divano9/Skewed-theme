@@ -35,6 +35,15 @@ ul.bxslider {
   width: 100%;
   z-index: 100;
 }
+
+.achievements .bx-wrapper .bx-pager,
+.achievements .bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  z-index: 100;
+}
+
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
@@ -72,6 +81,13 @@ ul.bxslider {
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
   background: #fff;
 }
+
+.achievements .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.achievements .bx-wrapper .bx-pager.bx-default-pager a.active,
+.achievements .bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #000;
+}
+
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
   display: inline-block;
